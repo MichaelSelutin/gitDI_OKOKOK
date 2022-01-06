@@ -1,0 +1,32 @@
+* { box-sizing:border-box; }
+
+.flex-container{
+    display:flex;
+    height: 800px;
+    border: 3px solid red;
+    flex-direction: column;
+ 
+    flex-wrap:wrap;
+}
+
+.flex-container > .div1{ 
+    height: 20vh;
+    width: 99%;
+    background-color: rgb(100, 237, 134);
+    border: white 2px solid;
+}
+
+.flex-container > .div2{
+    height: 20vh;
+    width: 50%;
+    align-self: flex-end;
+    background-color: cornflowerblue;
+    border: white 2px solid;
+}
+
+.flex-container > .div3{
+    height: 20vh;
+    width: 99%;
+    background-color: rgb(237, 182, 100);
+    border: white 2px solid;
+}

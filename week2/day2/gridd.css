@@ -1,0 +1,46 @@
+
+  * {
+    box-sizing:border-box;
+  }
+  
+  section {
+    padding: 10px;
+    border: 3px solid black;
+    display:grid; flex;
+    width: 50vw;
+    height: 80vh;
+    grid-gap: 10px 10px;
+  }
+  
+  section > div {
+    padding: 5px;
+  }
+  
+  .div1 {
+    border: 1px solid rgb(11, 11, 14);
+    background-color: #d865a4;
+    align-items: flex-start;
+    width: 40px;
+    height: 30px;
+    align-self: flex-end;
+    flex-direction: column;
+
+  }
+  
+  .div2 {
+    border: 1px solid rgb(14, 11, 11);
+    background-color: #76c0dd;
+  }
+  
+  .div3 {
+    border: 1px solid rgb(8, 8, 8);
+    background-color: #ffffcc;
+      grid-column: 3 / span 3;
+      grid-row: 3 / span 3
+  }
+  .div4{
+      border: 1px solid wheat;
+      background-color: turquoise;
+      width: 90%;
+      height: 50px;
+  }
