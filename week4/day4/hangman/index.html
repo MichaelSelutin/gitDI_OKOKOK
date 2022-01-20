@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
+    <link rel='shortcut icon' href='img/favicon.png' type='image/x-icon'>
+    <title>Hangman</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Hangman</h1>
+    </header>
+    <section id="scoreboard">
+      <h3>Score Board:</h3>
+    </section>
+    <main>
+      <section id="gameboard">
+        <section id="initial">
+          <p class="instructions"></p>
+          <p class="instructions">
+            <span>Player 1</span> will be the <span class="player1">executioner</span>.
+            Think of a word then input the word.<br>
+            <span>Player 2</span> will be the <span class="player2">hangee</span>.
+            Start guessing letters until you can either:
+            Solve the word <span>OR</span> you're haning on the gallows.<br>
+            Winner gets 100 points!
+          </p>
+          <button type="button" id="start">Start Game</button>
+        </section>
+        <section id="input">
+          <p class="instructions">
+            Player ONE enter a word longer than 3 letters, <br>no spaces, and
+            no special characters ( , ! & "" ).<br>(<span>DONT </span>let Player
+            TWO watch!).
+          </p>
+          <div>
+            <input type="text" name="word" id="word"/>
+            <button type="button">Submit Word</button>
+          </div>
+        </section>
+        <section id="wordField"></section>
+        <section id="alphabet"></section>
+      </section>
+      <section id="hangman"></section>
+    </main>
+    <footer><p>Created by Alyssa M. Felix</p></footer>
+  </body>
+</html>

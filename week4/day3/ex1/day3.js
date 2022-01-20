@@ -14,7 +14,11 @@
             window.alert("Your number is bigger then the computers, guess again")
         } else if (guess == randomNum) {
             window.alert("WINNER")
-        } else {
+        } else if (guess > 10) {
+            window.alert("bad number")
+        }
+        
+        else {
             window.alert("Sorry Not a number, Goodbye")
         }
 
