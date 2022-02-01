@@ -1,0 +1,18 @@
+html, body {
+    width: 50%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: powderblue;
+}
+
+#ListOfThings{
+    width: 300px;
+    height: 300px;
+    border: 1px solid palevioletred;
+
+    font-size: 25px;
+    vertical-align: middle;
+    margin-top: 25px;
+    padding: 10px;
+}
+
