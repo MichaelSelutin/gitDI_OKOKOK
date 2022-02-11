@@ -4,6 +4,6 @@
 
 try:
     5 / 0
-except(ZeroDivisionError):
+except ZeroDivisionError:
     print("oops")
 
